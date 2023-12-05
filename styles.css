@@ -29,7 +29,7 @@ body {
   background-image: linear-gradient(to bottom, red, white);
 }
 
-.photos-div {
+#projects {
   background-color: black;
 }
 
@@ -71,7 +71,7 @@ li {
 a {
   color: white;
   text-decoration: underline;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 /* SECTION ONE */
@@ -79,23 +79,15 @@ a {
 #welcome-section {
   height: 100vh;
   display: flex;
-}
-
-.section-one {
-  display: Flex;
-}
-.container-one {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
-  align-content: center;
+  align-items: center;
 }
 
 .main-description {
   display: flex;
   flex-direction: column;
   color: azure;
-  font-size: 26px;
+  font-size: 1.5rem;
   flex: 0 1 800px;
   text-align: Center;
   color: black;
@@ -150,16 +142,19 @@ a {
 
 /* SECTION TWO */
 
-#section-two {
-  position: relative;
+#projects {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid purple;
 }
 
 .section-two-title {
-  font-size: 2em;
+  font-size: 1.7rem;
   text-align: center;
   font-weight: bold;
-  padding: 1rem 0;
-  margin-bottom: 5px;
+  padding: 1rem;
+  position: relative;
 }
 #Service-photos {
   max-height: 190px;
@@ -169,7 +164,6 @@ a {
 }
 
 .photos-div {
-  height: 100vh;
   display: flex;
   justify-content: center;
   align-content: center;
