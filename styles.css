@@ -146,7 +146,6 @@ a {
   height: 100vh;
   display: flex;
   flex-direction: column;
-  border: 5px solid purple;
 }
 
 .section-two-title {
@@ -154,26 +153,27 @@ a {
   text-align: center;
   font-weight: bold;
   padding: 1rem;
-  position: relative;
-}
-#Service-photos {
-  max-height: 190px;
-  display: flex;
-  border-radius: 5px;
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
 }
 
+/* THIS CODE IS FOR THE CONTAINER WHICH CONTAINS ALL 3 PICTURES */
 .photos-div {
   display: flex;
   justify-content: center;
   align-content: center;
-  font-size: 5rem;
-  font-weight: bold;
   gap: 5px;
-
   flex-wrap: wrap;
 }
 
+/* THIS CODE CONTROLS JUST THE PICTURES WITHOUT THE TEXT*/
+#Service-photos {
+  max-height: 6.2em;
+  display: flex;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+/*EACH OF THESE ELEMENTS CONTROL EACH PICTURE AND TEXT*/
 #profile-link,
 #profile-link-two,
 #profile-link-three {
@@ -184,10 +184,7 @@ a {
   color: black;
   border-radius: 10px;
   text-decoration: none;
-
-  max-width: 450px;
-  min-width: 215px;
-  min-height: 290px;
+  font-weight: bold;
   text-align: center;
   padding-right: 1rem;
   padding-left: 1rem;
