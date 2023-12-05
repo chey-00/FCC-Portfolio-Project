@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header-nav">
+      <!-- <div class="header-logo">
+        <img
+          class="logo-img"
+          src="https://www.getitclean.net/wp-content/uploads/2022/01/Get-it-Clean-logo-cabelo-preto-800.png"
+          alt="Get it Clean Logo"
+        />
+      </div> -->
+
+      <!--NEED TO ADD HREF PAGE DESTINATION TO EACH A ELEMENT IN THE NAVBAR-->
+      <nav id="navbar">
+        <ul>
+          <li><a href="#welcome-section">About</a></li>
+          <li><a href="#projects">Work</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <!--THE HEIGHT OF THIS SECTION NEEDS TO BE = TO THE HEIGHT OF THE VIEWPORT-->
+    <section id="welcome-section" class="section-one">
+      <div class="container-one">
+        <div class="main-description">
+          <h1>
+            <p class="descrip-header">Well, hello there!</p>
+          </h1>
+          <p class="descrip-text">
+            <p>My name is <strong>Cheyenne</strong> and I am currently learning about <em>coding</em> (nerdy huh?). Hopefully you'll find some cool and interesting things here. As I continue to learn, I'd love for you to visit me often to see my progress. :)</p>
+            <p>Thank you for stopping by!</p>
+          </p>
+        </div>
+        <!--FOR THE MAIN IMAGE, FIND PIC WITH INITIALS "CVA" OR DESIGN IT-->
+        <div class="main-container">
+          <div class="first-letter">C</div>
+          <div class="second-letter">V</div>
+          <div class="third-letter">A</div>
+        </div> 
+    </section>
+
+    <section id="projects" class="master-section">
+      <section class="section-two">
+        <div class="section-two-title project-tile">
+          Here's what I've been up to lately...
+        </div>
+        <div class="photos-div">
+          <!--NEED TO ADD LINKS TO EACH IMAGE DIV BELOW DIRECTING THEM TO MY LIVE GITHUB PROJECTS-->
+          <!--EACH LINK NEEDS TO HAVE AN ID OF "profile-link" and have a target attribute of "_blank"-->
+          <div class="img-one">
+            
+             <a id="profile-link" class="project-pic-one" href="https://chey-00.github.io/odin-recipes/">
+                <img
+                  id="Service-photos" class="photo-one"
+                  src="/images/fattyhole-page-screenshot.png"
+                  alt="Fatty Hole Website - Credit @ Chey-00 (Github)"
+                />Fatty Hole - Random Recipe Portal (The Odin Project)
+              
+             </a>
+
+          </div>
+          <div class="img-two">
+           <a id="profile-link-two" class="project-pic-two" href="https://chey-00.github.io/Odin-Full-Webpage-Project/">
+            Business Landing Page (The Odin Project) <img
+                id="Service-photos" class="photo-two"
+                src="https://www.getitclean.net/wp-content/uploads/2023/03/Blue-and-White-Simple-Minimalist-Professional-Cleaning-Service-Promotion-Instagram-Post.jpg"
+                alt="Get it Clean Website"
+              />
+           </a>
+          </div>
+          <!--NEED TO PUSH SOLAR PROJECT TO GITHUB AND ADD PREVIEW IMAGE HERE -->
+          <div class="img-three">
+           <a id="profile-link-three" class="project-pic-three" href="">
+              <img
+                id="Service-photos" class="photo-three"
+                src="https://www.getitclean.net/wp-content/uploads/2020/08/gallery1-600x330.jpg"
+                alt="GIC Janitorial Services"
+              />Solar System Landing Page (FreeCodeCamp Project)
+           </a>
+          </div>
+      
+        </div>
+      </section>
+
+      <section class="section-three">
+        <div class="testimonial"><p>MY CURRENT GOALS</p></div>
+        <div class="testimonial-box">
+          <div>Rich Cameron</div>
+          <div>Nov 2</div>
+
+          <div>
+            <p>
+              <em>
+                WOW! I called for a deep clean in the basement and they came
+                right down to do an assessment. The next day the crew was here
+                and had the place spic and span within a couple of hours!
+                Friendly owner and crew, GREAT price point. I would highly
+                recommend Get it Clean!
+              </em>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section-four">
+        <div class="sign-up-box">
+          <div class="sign-up-text">
+            Got questions or feedback?
+          </div>
+          <button type="submit" class="book-button">Get in touch!</button>
+        </div>
+      </section>
+    </section>
+
+    <footer>2023 © All rights reserved by Chey-00.</footer>
+  </body>
+</html>

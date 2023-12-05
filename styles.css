@@ -1,0 +1,305 @@
+body {
+  margin: 0;
+  overflow-x:hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* BACKGROUND COLORS */
+
+.header-nav {
+  background-color: black;
+}
+
+.section-one {
+  background-color:rgba(255, 255, 255, 0.971);;
+}
+
+/*! I WANT TO MAKE THIS SECTION A GRADIENT COLOR WITH STEPPING BLOCKS STYLE */
+
+.section-two-title{
+  background-color:red;
+  
+}
+#profile-link, #profile-link-three{
+  background-image:linear-gradient(to right, white, red);
+  
+}
+
+#profile-link-two{
+  background-image:linear-gradient(to left, red, white);
+}
+
+.photos-div{
+  background-color:black;
+}
+
+.section-three {
+  );
+}
+
+.testimonial-box {
+  background-color: azure;
+}
+
+.sign-up-box {
+  background-image: linear-gradient(to top, black, red);
+}
+footer {
+  background-color: BLACK;
+}
+
+/* HEADER AND NAV BAR */
+/*! THE NAVBAR NEEDS TO BE FIXED TO THE TOP OF THE PAGE*/
+
+.header-nav {
+  display: flex;
+  justify-content: FLEX-END;
+  width: 100%;
+  height:10vh;
+  position: fixed;
+  z-index:1;
+}
+
+ul {
+  display: Flex;
+  gap: 100px;
+  margin-right: 10%;
+  justify-content: center;
+  align-content: center;
+  
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: underline;
+  font-size: 20px;
+}
+
+.logo-img {
+  max-width: 95%;
+  max-height: 100%;
+  margin-top: 4px;
+  display: flex;
+  padding: 5px;
+}
+
+/* SECTION ONE */
+
+#welcome-section{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-content:center;
+}
+
+.section-one {
+  display: Flex;
+}
+.container-one {
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+  padding-bottom: 25px;
+}
+
+.main-description {
+  display: flex;
+  flex-direction: column;
+  color: azure;
+  padding: 10px 50px;
+  font-size: 26px;
+  height: auto;
+  flex: 0 1 800px;
+  text-align: Center;
+  color:black;
+}
+
+.descrip-header {
+  color: rgb(255, 4, 0);
+  text-decoration: underline;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  margin-top:2em;
+}
+
+/* THIS IS THE CODE FOR MY CVA LOGO */
+
+
+.first-letter,.second-letter,.third-letter{
+  border: 3px solid black;
+  width:5%;
+  max-width:10%;
+  padding:4rem;
+  display:flex;
+  justify-content:Center;
+  align-content:Center;
+  font-size:4rem;
+  background-image:linear-gradient(red,white);
+  font-weight:bold;
+  
+}
+
+.first-letter{
+  position:fixed;
+  right:220px;
+  top:200px;
+  width:15px;
+  
+}
+
+.second-letter{
+  position:fixed;
+  right:120px;
+  top:380px;
+  width:15px;
+  
+}
+
+.third-letter{
+  position:fixed;
+  width:15px;
+  right:20px;
+  top:200px;
+}
+
+/* SECTION TWO */
+
+.section-two-title {
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 25px 0;
+
+  margin-bottom:5px;
+}
+#Service-photos {
+  width: 280px;
+  height:auto;
+  display: flex;
+  
+}
+
+.photos-div {
+  display: flex;
+  flex-direction:column;
+ text-align:center;
+ justify-content:center;
+ align-content:center;
+  font-size: 18px;
+  font-weight: bold;
+  flex-wrap: wrap;
+  padding: 10px 370px;
+  gap: 5px;
+  
+}
+
+#profile-link, #profile-link-three{
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  color:black;
+  gap:15px;
+  padding:5px;
+  border-radius: 10px;
+  text-decoration:none;
+  
+}
+
+#profile-link-two{
+  display:flex;
+  justify-content:flex-end;
+  padding:5px;
+  align-items:center;
+  color:black;
+  gap:15px;
+  border-radius: 10px;
+  text-decoration:none;
+}
+
+.project-pic-one:hover, 
+.project-pic-two:hover, 
+.project-pic-three:hover{
+  opacity:.5;
+  z-index:0;
+  
+}
+
+
+/* SECTION THREE */
+
+.section-three {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonial {
+  font-size: 26px;
+}
+
+.testimonial-box {
+  border-radius: 15px;
+  max-width: 800px;
+  padding: 10px;
+  margin-bottom: 50px;
+}
+
+/* SECTION FOUR */
+
+.section-four {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.sign-up-box {
+  border-radius: 10px;
+  padding: 50px;
+  display: Flex;
+  gap: 20px;
+  justify-content:center;
+  align-items:center;
+  width:100vw;
+}
+
+.sign-up-text {
+  font-size: 24px;
+  color:white;
+}
+
+.book-button {
+  font-size: 18px;
+  font-weight: bold;
+  padding: 15px;
+  border-radius: 15px;
+  border: 4px solid darkblue;
+  transition-duration: 0.4s;
+}
+
+.book-button:hover {
+  background-color: darkblue;
+  color: white;
+}
+/* FOOTER */
+
+footer {
+  display: Flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  font-weight: bold;
+  color: white;
+}
+
+/*! NEED TO ADD AT LEAST ONE MEDIA QUERY FOR THIS PROJECT */
