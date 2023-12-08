@@ -87,21 +87,25 @@ a {
   display: flex;
   flex-direction: column;
   color: azure;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   flex: 0 1 800px;
-  text-align: Center;
   color: black;
-  padding: 5%;
+  padding: 1em 1em;
 }
 
 .descrip-header {
   color: rgb(255, 4, 0);
   text-decoration: underline;
   font-weight: bold;
-  font-size: 48px;
+  font-size: 2.7rem;
   text-align: center;
+  margin-bottom: 0;
 }
 
+.web-dev {
+  font-weight: bold;
+  color: red;
+}
 /* THIS IS THE CODE FOR CVA LOGO */
 
 .first-letter,
@@ -309,5 +313,45 @@ footer {
     left: 70px;
     top: 5px;
     z-index: 3;
+  }
+}
+
+/* SCROLLER ANIMATION */
+
+.introduction-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 5px 7px 7px rgba(33, 33, 33, 0.7);
+  flex-wrap: wrap;
+}
+
+.scroller {
+  height: 1.2em;
+  line-height: 1.2em;
+  position: relative;
+  overflow: hidden;
+  max-width: 15em;
+  margin-left: 0.5rem;
+  margin-right: 0.2rem;
+}
+.scroller > span {
+  position: relative;
+  top: 0;
+  animation: slide 5s infinite;
+  font-weight: bold;
+}
+@keyframes slide {
+  0% {
+    top: 0;
+  }
+  25% {
+    top: -1.2em;
+  }
+  50% {
+    top: -2.4em;
+  }
+  75% {
+    top: -3.6em;
   }
 }
